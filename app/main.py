@@ -55,6 +55,7 @@ app = create_app()
 
 @app.get("/")
 async def healthchecker():
+  # can add any thing here
   return {"status": "OK", "message": "Welcome to Social API. Can use our API now"}
 
 
