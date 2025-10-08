@@ -55,7 +55,7 @@ app = create_app()
 
 @app.get("/")
 async def healthchecker():
-  return {"status": "OK", "message": "Welcome to Social API"}
+  return {"status": "OK", "message": "Welcome to Social API. Can use our API now"}
 
 
 # uvicorn --reload app.main:app
